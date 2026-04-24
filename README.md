@@ -25,10 +25,6 @@ The logic follows a structured data cleaning pipeline:
 5.  **Perform Z-Score Normalization** by subtracting the mean of the column and dividing by its standard deviation.
 6.  **Print and Verify** the results to ensure values are correctly scaled.
 
-### 5. Conclusion
-In this experiment, I successfully implemented data normalization and type conversion. I observed that Min-Max scaling is effective for bringing all features to the same 0-1 scale, while Z-score normalization provides a better understanding of data variance. These steps are essential for preparing high-quality data for predictive modeling.
-
----
 
 ### One-Liner Explanations
 
@@ -48,5 +44,8 @@ In this experiment, I successfully implemented data normalization and type conve
 * `df[['Product', 'Price', 'Price_Normalized']]`: Selects specific columns from the DataFrame to display a subset of the data.
 * `df[cols].min()`: Simultaneously finds the minimum values for multiple specified columns at once.
 
-**Conclusion**
-Thus, the data was successfully normalised and data type was converted
+
+### 5. Conclusion
+In this experiment, I successfully implemented data normalization and type conversion. I observed that Min-Max scaling is effective for bringing all features to the same 0-1 scale, while Z-score normalization provides a better understanding of data variance. These steps are essential for preparing high-quality data for predictive modeling.
+
+---
